@@ -1,0 +1,13 @@
+{
+  "user_name": "Comandante",
+  "bot_token": "TU_TELEGRAM_BOT_TOKEN_AQUI",
+  "allowed_user_ids": [123456789],
+  "default_cwd": "~/Documents",
+  "agy_bin": "~/.local/bin/agy",
+  "claude_bin": "~/.local/bin/claude",
+  "auto_caffeinate": true,
+  "model": "gemini-4-argon-medium",
+  "voice_name": "es-MX-DaliaNeural",
+  "task_timeout_seconds": 0,
+  "continue_conversation": true
+}

@@ -1,0 +1,19 @@
+# Credenciales privadas y estado local (NUNCA subir a Git)
+config.json
+state.json
+history.json
+plans.json
+daemon.log
+launchd_keepalive.log
+iris.pid
+iris.lock
+iris.heartbeat
+reload_pending.json
+active_task_card.json
+iris_native_req_*.json
+iris_native_res_*.json
+downloads/
+models/*.bin
+__pycache__/
+*.pyc
+.DS_Store

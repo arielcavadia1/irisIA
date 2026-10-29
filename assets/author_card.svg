@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 220" width="100%">
+  <defs>
+    <linearGradient id="authBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1322"/>
+      <stop offset="50%" stop-color="#091a26"/>
+      <stop offset="100%" stop-color="#140d26"/>
+    </linearGradient>
+    <clipPath id="cBox1"><rect x="36" y="122" width="330" height="70" rx="12"/></clipPath>
+    <clipPath id="cBox2"><rect x="385" y="122" width="330" height="70" rx="12"/></clipPath>
+    <clipPath id="cBox3"><rect x="734" y="122" width="330" height="70" rx="12"/></clipPath>
+  </defs>
+  <rect width="1100" height="220" rx="20" fill="url(#authBg)" stroke="#00f2fe" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect x="36" y="24" width="210" height="26" rx="6" fill="#071f29" stroke="#00f2fe" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="141" y="41" fill="#00f2fe" font-family="monospace" font-size="10.5" font-weight="700" text-anchor="middle">AUTORÍA &amp; LICENCIA LIBRE</text>
+  <text x="262" y="43" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="18.5" font-weight="800">Ariel Castro Cavadía • Software Libre con Atribución (MIT)</text>
+
+  <text x="36" y="76" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="13">
+    Versión Lite liberada para la comunidad de Software Libre (MIT), derivada de lo diseñado por Ariel Castro Cavadía para Rocket Launch
+  </text>
+  <text x="36" y="96" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13">
+    para la comunidad Open Source. Úsala, mejórala y adáptala libremente manteniendo siempre los créditos al autor original.
+  </text>
+
+  <!-- 3 Contact Boxes (Portfolio, Telegram, GitHub) -->
+  <rect x="36" y="122" width="330" height="70" rx="12" fill="#071a24" stroke="#00f2fe" stroke-opacity="0.35" stroke-width="1.2"/>
+  <g clip-path="url(#cBox1)">
+    <text x="56" y="148" fill="#00f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700">PORTAFOLIO PERSONAL</text>
+    <text x="56" y="172" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="800">www.arielcastrocavadia.com</text>
+  </g>
+
+  <rect x="385" y="122" width="330" height="70" rx="12" fill="#071929" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1.2"/>
+  <g clip-path="url(#cBox2)">
+    <text x="405" y="148" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700">TELEGRAM</text>
+    <text x="405" y="172" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="800">@arielcavadia1</text>
+  </g>
+
+  <rect x="734" y="122" width="330" height="70" rx="12" fill="#160f29" stroke="#c084fc" stroke-opacity="0.35" stroke-width="1.2"/>
+  <g clip-path="url(#cBox3)">
+    <text x="754" y="148" fill="#c084fc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700">GITHUB REPOSITORY</text>
+    <text x="754" y="172" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="800">github.com/arielcavadia1/irisIA</text>
+  </g>
+</svg>

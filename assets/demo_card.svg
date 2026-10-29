@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420" width="100%">
+  <defs>
+    <clipPath id="clipPhone"><rect x="0" y="0" width="535" height="420" rx="20"/></clipPath>
+    <clipPath id="clipTerm"><rect x="565" y="0" width="535" height="420" rx="20"/></clipPath>
+  </defs>
+
+  <!-- Left: Telegram Mockup -->
+  <rect x="0" y="0" width="535" height="420" rx="20" fill="#0d131f" stroke="#1e293b" stroke-width="1.5"/>
+  <g clip-path="url(#clipPhone)">
+    <!-- Phone Header -->
+    <rect x="0" y="0" width="535" height="62" fill="#131b2c"/>
+    <circle cx="38" cy="31" r="16" fill="#00f2fe" fill-opacity="0.18" stroke="#00f2fe" stroke-width="1.5"/>
+    <!-- Vector Pulse/Bot Icon inside Header Avatar -->
+    <path d="M31 31 h4 l2.5 -5 l3 10 l2.5 -5 h4" fill="none" stroke="#00f2fe" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="66" y="28" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="700">Iris — Mission Control (Lite)</text>
+    <text x="66" y="46" fill="#4ade80" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="600">● Conectada a tu Mac • En línea</text>
+
+    <!-- User Voice Bubble with Crisp Vector Microphone Icon -->
+    <rect x="305" y="76" width="206" height="36" rx="14" fill="#00b4d8"/>
+    <circle cx="329" cy="94" r="11" fill="#041019" fill-opacity="0.18"/>
+    <rect x="326.8" y="87" width="4.4" height="8" rx="2.2" fill="none" stroke="#041019" stroke-width="1.6"/>
+    <path d="M324 92.5 a5 5 0 0 0 10 0" fill="none" stroke="#041019" stroke-width="1.6" stroke-linecap="round"/>
+    <line x1="329" y1="97.5" x2="329" y2="100.5" stroke="#041019" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="347" y="98.5" fill="#041019" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800">Nota de voz (0:04)</text>
+
+    <!-- Bot Reply Bubble -->
+    <rect x="22" y="124" width="435" height="84" rx="14" fill="#172135" stroke="#263552" stroke-width="1"/>
+    <text x="38" y="146" fill="#00f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="11.8" font-weight="700">Escuché: «Revisa mi-tienda-web y haz git pull»</text>
+    <text x="38" y="168" fill="#e2e8f0" font-family="system-ui, -apple-system, sans-serif" font-size="11.8">• Rama activa: main • 3 commits sincronizados</text>
+    <text x="38" y="190" fill="#4ade80" font-family="system-ui, -apple-system, sans-serif" font-size="11.8" font-weight="600">• Dependencias y tipos validados sin conflictos.</text>
+
+    <!-- User Video + Image Context Bubble -->
+    <rect x="86" y="220" width="425" height="68" rx="14" fill="#0284c7"/>
+    <text x="102" y="242" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700">[Imagen + Video adjuntos: bug_checkout.mp4]</text>
+    <text x="102" y="261" fill="#f0f9ff" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">«Te envío captura del diseño y video del bug en el</text>
+    <text x="102" y="277" fill="#f0f9ff" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">carrito para que tengas el contexto y lo ajustes»</text>
+
+    <!-- Bot Multimodal Reply -->
+    <rect x="22" y="300" width="445" height="58" rx="14" fill="#172135" stroke="#00f2fe" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="38" y="322" fill="#00f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="11.8" font-weight="700">Contexto visual y de video analizado en CartDrawer.tsx</text>
+    <text x="38" y="342" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Transición CSS corregida. Nota de voz enviada (0:06).</text>
+
+    <!-- Bottom Telegram Input Bar with Paperclip + Glowing Microphone Button -->
+    <rect x="20" y="370" width="495" height="36" rx="18" fill="#090d16" stroke="#1e293b" stroke-width="1.2"/>
+    <!-- Left Paperclip Attachment Icon -->
+    <g transform="translate(31, 379) scale(0.78)" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/>
+    </g>
+    <!-- Input Placeholder Text -->
+    <text x="58" y="392.5" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Envía texto, voz, imágenes o video de contexto...</text>
+    <!-- Right Glowing Cyan Microphone Button -->
+    <circle cx="495" cy="388" r="14" fill="#00f2fe" fill-opacity="0.18" stroke="#00f2fe" stroke-opacity="0.6" stroke-width="1.2"/>
+    <rect x="492.6" y="380.2" width="4.8" height="8.5" rx="2.4" fill="none" stroke="#00f2fe" stroke-width="1.7"/>
+    <path d="M489.5 386 a5.5 5.5 0 0 0 11 0" fill="none" stroke="#00f2fe" stroke-width="1.7" stroke-linecap="round"/>
+    <line x1="495" y1="391.5" x2="495" y2="395" stroke="#00f2fe" stroke-width="1.7" stroke-linecap="round"/>
+    <line x1="492" y1="395" x2="498" y2="395" stroke="#00f2fe" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right: macOS Terminal Mockup -->
+  <rect x="565" y="0" width="535" height="420" rx="20" fill="#090d16" stroke="#1e293b" stroke-width="1.5"/>
+  <g clip-path="url(#clipTerm)">
+    <rect x="565" y="0" width="535" height="48" fill="#111726"/>
+    <circle cx="592" cy="24" r="6" fill="#ef4444"/>
+    <circle cx="610" cy="24" r="6" fill="#f59e0b"/>
+    <circle cx="628" cy="24" r="6" fill="#10b981"/>
+    <text x="825" y="28" fill="#94a3b8" font-family="monospace" font-size="11.5" text-anchor="middle">iris_daemon.py — macOS daemon</text>
+    <text x="1075" y="28" fill="#4ade80" font-family="monospace" font-size="11" font-weight="700" text-anchor="end">● ACTIVE</text>
+
+    <text x="590" y="84" fill="#64748b" font-family="monospace" font-size="11.8"># 1. Estado en vivo en tu Mac (100% Headless)</text>
+    <text x="590" y="108" fill="#00f2fe" font-family="monospace" font-size="12" font-weight="700">$ ./iris.sh status</text>
+    <text x="590" y="132" fill="#4ade80" font-family="monospace" font-size="11.8">● Iris está ACTIVA y escuchando en Telegram.</text>
+
+    <text x="590" y="170" fill="#64748b" font-family="monospace" font-size="11.8"># 2. Transcripción de Voz con Whisper Local</text>
+    <text x="590" y="194" fill="#cbd5e1" font-family="monospace" font-size="11.8">[VOICE] Nota de voz recibida (.oga) -&gt; 680ms</text>
+    <text x="590" y="216" fill="#4ade80" font-family="monospace" font-size="11.8">[STT] «Revisa mi-tienda-web y haz git pull»</text>
+
+    <text x="590" y="254" fill="#64748b" font-family="monospace" font-size="11.8"># 3. Análisis Multimodal de Imagen + Video</text>
+    <text x="590" y="278" fill="#cbd5e1" font-family="monospace" font-size="11.8">[MEDIA] Recibido: bug_checkout.mp4 + diseño.png</text>
+    <text x="590" y="300" fill="#4ade80" font-family="monospace" font-size="11.8">[OK] CartDrawer.tsx actualizado • Tests OK</text>
+
+    <text x="590" y="338" fill="#64748b" font-family="monospace" font-size="11.8"># 4. Watchdog 24/7 &amp; Voz Natural Fluida (Opus)</text>
+    <text x="590" y="362" fill="#cbd5e1" font-family="monospace" font-size="11.8">[WATCHDOG] Batería 94% (AC) • SSD 142.6 GB</text>
+    <text x="590" y="384" fill="#4ade80" font-family="monospace" font-size="11.8">[TTS] Nota de voz enviada a Telegram</text>
+  </g>
+</svg>
